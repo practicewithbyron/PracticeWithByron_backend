@@ -38,6 +38,6 @@ jobs:
         with:
           app-name: 'PracticeWithByron-API'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F389A9F2D58242339E6D0D776CC077DC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_39422CD13773467AB0A56257402F1470 }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
